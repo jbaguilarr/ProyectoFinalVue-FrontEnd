@@ -1,0 +1,40 @@
+{
+  "area": [
+    {
+      "id": 1,
+      "NombreArea": "Finanzas",
+      "NombreEncargado": "Marci antonio lineras",
+      "NroFuncionario": "18"
+    },
+    {
+      "id": 2,
+      "NombreArea": "Sistemass",
+      "NombreEncargado": "Juan Carlos Morealess",
+      "NroFuncionario": "12"
+    },
+    {
+      "id": 3,
+      "NombreArea": "Abogado",
+      "NombreEncargado": "almacen",
+      "NroFuncionario": "19"
+    }
+  ],
+  "activos": [
+    {
+      "id": 1,
+      "TipoActivo": "Computadora",
+      "Marca": "HP",
+      "Modelo": "Pavilion 360",
+      "Estado": "DESUSO",
+      "AreaId": 1
+    },
+    {
+      "id": 2,
+      "TipoActivo": "IMPRESO",
+      "Marca": "CANONB",
+      "Modelo": "3323d",
+      "Estado": "USADO",
+      "AreaId": 2
+    }
+  ]
+}

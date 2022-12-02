@@ -1,0 +1,8 @@
+FROM node:16.18-alpine3.15 as dev-stage
+WORKDIR /app
+COPY package.json .
+RUN yarn install
+COPY . .
+
+EXPOSE 4200
+CMD [ "yarn", "run" ,"serve" ]
